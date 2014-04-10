@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_CustomOptionPromotion>
+            <version>1.0.0</version>
+        </Edge_CustomOptionPromotion>
+    </modules>
+    <global>
+        <models>
+            <salesrule>
+                <rewrite>
+                    <rule_condition_product>Edge_CustomOptionPromotion_Model_SalesRule_Rule_Condition_Product</rule_condition_product>
+                </rewrite>
+            </salesrule>
+        </models>
+    </global>
+</config>
